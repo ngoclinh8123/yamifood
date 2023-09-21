@@ -7,8 +7,7 @@
 		
 		$currentPage= isset($pathArr[3]) ? $pathArr[3] : "home";
 		
-		$imgPath = "";
-		$slug = 
+		$imgPath = 
 		($currentPage == "pages") 
 		? "../../../asset/images/logo.png" : 
 		(($currentPage == "home") 
@@ -25,7 +24,7 @@
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
-					<img src= <?php echo $slug ?> alt="" />
+					<img src= <?php echo $imgPath ?> alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
