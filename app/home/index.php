@@ -26,6 +26,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="asset/css/custom.css">
 
+	<link rel="stylesheet" href="app/home/style.css">    
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.app/views/asset/js/1.4.2/respond.min.js"></script>
@@ -156,7 +158,12 @@
 						<div class="why-text">
 							<h4>Special Drinks 1</h4>
 							<p>Sed id magna vitae eros sagittis euismod.</p>
-							<h5> $7.79</h5>
+							<div class="gallery-foot">
+								<h5> $7.79</h5>
+								<span class="gallery-add-btn">
+									<img src="../../asset/images/icon_add_cart.png" onerror="this.src='asset/images/icon_add_cart.png'" alt="">
+								</span>
+							</div>
 						</div>
 					</div>
 				</div>

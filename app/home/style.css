@@ -1,0 +1,16 @@
+.gallery-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gallery-add-btn {
+  cursor: pointer;
+}
+
+.gallery-add-btn img {
+  width: 32px;
+  margin-right: 32px;
+  position: relative;
+  top: -2px;
+}
